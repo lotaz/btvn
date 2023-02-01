@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    background-color: #3b514b;
+    height: 50px;
+    width: 100%;
+    &-info {
+        display: flex;
+        p{
+            padding-left: 50px;
+            color: #bcbec0;
+        }
+    }
+    &-icon {
+       display: flex;
+       padding-left: 500px;
+       p{
+        color: #bcbec0;
+        padding-left: 15px;
+        cursor: pointer;
+       }
+    }
+}

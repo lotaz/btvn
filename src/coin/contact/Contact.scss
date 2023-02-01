@@ -1,0 +1,55 @@
+.contact {
+    background: url('https://vtcoder-html6.surge.sh/img/footer.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 350px;
+    position: relative;
+    text-align: center;
+    color: white;
+
+    h1 {
+        padding-top: 100px;
+    }
+
+    span{
+        font-size: 30px;
+    }
+    &-list{
+        span{
+            color: green;
+        }
+        p{
+            font-size: 15px;
+            padding-left: 40px;
+            padding-top: 10px;
+        }
+        display: flex;
+        padding-left: 400px;
+    }
+    &-final{
+        background-color: #021c1a;
+        padding-left: 150px;
+        color: white;
+        display: flex;
+        margin-top: 12px;
+        &-option{
+            display: flex;
+            padding-left: 150px;
+            p{
+                cursor: pointer;
+                padding-left: 20px;
+            }
+        }
+        &-icon{
+            padding-left: 300px;
+            display: flex;
+            p{
+            cursor: pointer;
+                margin-left: 10px;
+                border: 1px solid white;
+                border-radius: 10px;
+                background-color: white;
+                
+            }
+        }
+    }
+}

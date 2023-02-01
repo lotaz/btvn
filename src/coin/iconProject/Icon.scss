@@ -1,0 +1,48 @@
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 88%;
+    margin: 0 auto;
+    padding-left: 150px;
+    
+    &-all {
+        background-color: #f6f6f6;
+        border: 1px solid rgb(221, 217, 217);
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+        img {
+            padding-left: 85px;
+            padding-top: 10px;
+        }
+        span{
+            color: #18d685;
+        }
+       h2{
+        color: #6d6e71;
+        padding-left: 10px;
+       }
+        .icon-script{
+            width: 98%;
+            height:10px;
+            color: #18d685;
+            padding-left: 5px;
+            padding-top: 5px;
+            border-top: 1px solid rgb(197, 195, 195);
+        }
+    }
+    .icon-star{
+        padding-left: 5px;
+    }
+    .star{
+        color: #ffc703;
+        
+    }
+    h2{
+        border-top: 1px solid rgb(248, 248, 248);
+        padding-top: 10px;
+    }
+    .lite-coin{
+        background-color: white;
+    }
+}

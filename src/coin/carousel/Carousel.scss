@@ -1,0 +1,103 @@
+.carousel {
+    
+    &-header {
+        display: flex;
+        border-bottom: 0.1px solid #063d68 ;
+        padding-bottom: 5px;
+    }
+
+    background: url('https://vtcoder-html6.surge.sh/img/bg-banner02.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+
+    padding-top: 10px;
+
+    &-image {
+        padding-left: 200px;
+        height: 70px;
+        width: 70px;
+    }
+
+    &-option {
+        
+        margin-left: 300px;
+        margin-top: 20px;
+
+        a {
+            padding-left: 30px;
+            color: white;
+
+            &:hover {
+                transition: 1s;
+                color: #18d685;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    .carousel-option-home {
+            color: #18d685;
+    }
+
+    &-login {
+        margin-left: 150px;
+        margin-top: 20px;
+
+        a {
+            color: white;
+            padding-left: 20px;
+            padding-right: 16px;
+        }
+
+        &-join {
+            border: 1px solid white;
+            border-radius: 15%;
+            padding: 5px;
+
+            &:hover {
+                background-color: #18d685;
+                transition: 1s;
+            }
+        }
+    }
+
+    &-lorem {
+        text-align: center;
+        padding-top: 100px;
+
+        h1 {
+            color: white;
+        }
+
+        p {
+            color: white;
+        }
+
+        &-choose {
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            padding-top: 30px;
+
+            &-a {
+                margin-right: 50px;
+                padding: 5px 60px 5px 60px;
+                border: 1px solid #18d685;
+                background-color: #18d685;
+                border-radius: 20px;
+            }
+
+            &-b {
+                margin-right: 50px;
+                padding: 5px 60px 5px 60px;
+                border: 1px solid rgb(94, 94, 224);
+                background-color: rgb(94, 94, 224);
+                border-radius: 20px;
+            }
+        }
+    }
+}
