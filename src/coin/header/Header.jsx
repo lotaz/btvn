@@ -8,6 +8,7 @@ export default class Header extends Component {
         <p>123 sdasdasd, sadasddasd , USA</p>
         <p>+1234567899</p>
         <p>info@asdadas.com</p>
+        <p>thangdeptrai</p>
         </div>
         <div className='header-icon'>
             <p>💫</p>
