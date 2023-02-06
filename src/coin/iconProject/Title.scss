@@ -1,5 +1,22 @@
-.title{
+.title {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    &-project {
+
+        h2 {
+            position: relative;
+            &::after {
+                position: absolute;
+                content: "";
+                width: 100px;
+                display: block;
+                left: 47%;
+                border-bottom: 2px solid black;
+                bottom: -6px;
+            }
+        }
+
+    }
 }

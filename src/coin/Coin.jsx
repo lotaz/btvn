@@ -9,8 +9,12 @@ import Subscribe from './subscribe/Subscribe'
 
 export default class Coin extends Component {
   render() {
+    const handleScroll = (e) => {
+      const bottom = e.target.scrollTo;
+      console.log(bottom)
+  }
     return (
-      <div>
+      <div onScroll={(e) => handleScroll(e)}>
         <Header />
         <Carousel />
         <IconProject />

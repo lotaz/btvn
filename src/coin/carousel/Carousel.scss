@@ -1,17 +1,22 @@
 .carousel {
-    
+
     &-header {
         display: flex;
-        border-bottom: 0.1px solid #063d68 ;
+        border-bottom: 0.1px solid #063d68;
         padding-bottom: 5px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #0d8364;
+        border: 2px solid #0d8364;
+        opacity: 0.9;
     }
 
     background: url('https://vtcoder-html6.surge.sh/img/bg-banner02.jpg') no-repeat center;
     background-size: cover;
     min-height: 600px;
     position: relative;
-
-    padding-top: 10px;
 
     &-image {
         padding-left: 200px;
@@ -20,14 +25,12 @@
     }
 
     &-option {
-        
         margin-left: 300px;
         margin-top: 20px;
 
         a {
             padding-left: 30px;
             color: white;
-
             &:hover {
                 transition: 1s;
                 color: #18d685;
@@ -38,10 +41,11 @@
     }
 
     .carousel-option-home {
-            color: #18d685;
+        color: #18d685;
     }
 
     &-login {
+        cursor: pointer;
         margin-left: 150px;
         margin-top: 20px;
 
@@ -53,11 +57,20 @@
 
         &-join {
             border: 1px solid white;
-            border-radius: 15%;
-            padding: 5px;
+            border-radius: 30px;
+            padding: 3px;
+            padding-bottom: 8px;
 
             &:hover {
                 background-color: #18d685;
+                border: none;
+                transition: 1s;
+            }
+        }
+
+        &-sign {
+            &:hover {
+                color: #18d685;
                 transition: 1s;
             }
         }

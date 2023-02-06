@@ -10,7 +10,7 @@ export default class Subscribe extends Component {
                 </div>
                 <div className='sub-input'>
                     <input type="text" class="sub-search" placeholder="Enter your email" />
-                    <button class="sub-icon">F</button>
+                    <button class="sub-icon">A</button>
                 </div>
             </div>
         )
